@@ -6,4 +6,4 @@ app = Flask(__name__)
 def home():
     return "Hello, this is a sample Python Web App running on Flask Framework!"
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8000)
+    app.run(host="0.0.0.0", port=8000)
